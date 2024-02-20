@@ -1,17 +1,20 @@
 import {useState, useEffect} from "react";
 import reward from "./../assets/reward.svg";
 import rightArrBlack from './../assets/rightArrow.svg';
+import creditcard1 from './../image/creditcard1.jpg';
+import creditcard2 from './../image/creditcard2.jpg';
+import creditcard3 from './../image/creditcard3.jpg';
 
 const Rewards = () => {
 
   const [activeIndex, setActiveIndex] = useState(0);
 
   const images = [
-    "https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg",
-    "https://images6.alphacoders.com/462/thumb-1920-462371.jpg",
-    "https://wallpaperaccess.com/full/1154341.jpg",
-    "https://wallpapercave.com/wp/wp2634222.jpg",
-    "https://images5.alphacoders.com/343/thumb-1920-343645.jpg",
+    creditcard1,
+    creditcard2,
+    creditcard3,
+    creditcard1,
+    creditcard2,
   ];
   
   useEffect(() => {
