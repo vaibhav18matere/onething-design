@@ -102,13 +102,13 @@ function App() {
               Get Started
             </button>
           </div>
-          <div className="w-100 sm:w-6/12 h-half">
+          <div data-aos="flip-right" className="w-100 sm:w-6/12 h-half">
             <img className="w-100  h-[240px] sm:h-full" src={creditCard} />
           </div>
         </div>
       </div>
       <div className="second-section bg-[#8E7CB5] px-[24px] pt-[32px] pb-[48px] sm:px-[108px] sm:py-[108px] flex flex-col sm:flex-row gap-x-[100px] sm:items:center">
-        <p className="font-medium text-2xl sm:text-[40px] leading-[36px] sm:leading-[56px] text-[#ffffff] w-full sm:w-3/6">
+        <p data-aos="fade-down" className="font-medium text-2xl sm:text-[40px] leading-[36px] sm:leading-[56px] text-[#ffffff] w-full sm:w-3/6">
           {" "}
           The Freedom to Create The Credit Card You Want
         </p>
@@ -137,13 +137,13 @@ function App() {
         </div>
         <div id="second-text" className="hidden sm:block">
           <p className="text-base font-normal leading-[24px] text-[#FFFFFF]">
-            That's why it comes with benefits & rewards chosen by you. Available
+            That&apos;s why it comes with benefits & rewards chosen by you. Available
             in multiple designs, your card comes in a style selected by you. You
-            can come back each year, to edit your benefits or update your style.
+            can come back each year, to edit your benefits or update your style.
           </p>
           <p className="mt-[16px] text-base font-normal leading-[24px] text-[#FFFFFF]">
-            Your OneSync Credit Card stays true to you, year after year. It’s
-            the only card you’ll ever need.
+            Your OneSync Credit Card stays true to you, year after year. It&apos;s
+            the only card you&apos;ll ever need.
           </p>
 
           <div className="flex gap-x-[16px] text-[#FFFFFF] text-[20px] leading-[30px] font-medium mt-[16px]">
@@ -155,7 +155,7 @@ function App() {
         </div>
       </div>
       <div className="section-3-mobile px-[24px] pb-[48px] sm:py-[32px] sm:hidden">
-        <p className="font-medium text-[24px] leading-[34px] text-[#000000]">
+        <p data-aos="fade-down" className="font-medium text-[24px] leading-[34px] text-[#000000]">
           Create your own credit card in three easy steps
         </p>
         <img className="mt-[32px]" src={stepField} />
@@ -214,7 +214,7 @@ function App() {
             Choose Your Rewards
           </h6>
           <p className="font-normal text-[24px] leading-[36px]">
-            Match your card to your lifestyle. We've got benefits from across
+            Match your card to your lifestyle. We&apos;ve got benefits from across
             brands & categories for you to choose from. Each benefit has an
             attached fee. Just add the ones you like to your card.
           </p>
@@ -224,7 +224,7 @@ function App() {
             Choose Your Rewards
           </h6>
           <p className="font-normal text-base leading-[24px]">
-            Match your card to your lifestyle. We've got benefits from across
+            Match your card to your lifestyle. We&apos;ve got benefits from across
             brands & categories for you to choose from. Each benefit has an
             attached fee. Just add the ones you like to your card.
           </p>
@@ -283,7 +283,7 @@ function App() {
           </h6>
           <p className="font-normal text-[24px] leading-[36px] text-[#000000]">
             Match your card to your personality. Whether you like a minimal look
-            or something that catches everyone's eyes, we've got a style for
+            or something that catches everyone&apos;s eyes, we&apos;ve got a style for
             you. You can update your style every year, for a small fee{" "}
           </p>
         </div>
