@@ -1,4 +1,3 @@
-import hamburegrMenu from "./assets/hamburgerMenu.svg";
 import rightArrBlack from "./assets/chevron-right-black.svg";
 import stepField from "./assets/stepsFields.svg";
 import eligibility from "./assets/eligibleDoc.svg";
@@ -14,10 +13,10 @@ import Footer from "./components/Footer";
 import Accordion from "./components/Accordion";
 import GetStarted from "./components/GetStarted";
 import GetStartedMobile from "./components/GetStartedMobile";
-import HeroSection from "./components/HeroSection";
+import Header from "./components/Header";
 
 function App() {
-  const [isMobileList, setIsMobileList] = useState(false);
+
   const [activeIndex, setActiveIndex] = useState(0);
   const images = [
     "https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg",
@@ -35,45 +34,10 @@ function App() {
     return () => clearInterval(interval);
   }, [activeIndex, images.length]);
 
-  const toggleMobileList = () => setIsMobileList((prev) => !prev);
+
   return (
     <>
-      <div className="h-[100vh]">
-        <header className="flex justify-between items-center px-[21px] sm:px-[106px] py-[21px] sm:py-[27px] h-[64px] sm:h-[104px] ">
-          <button className="w-[102px] h-[37px] sm:w-[135px] sm:h-[49px] bg-[#000000] text-white text-[14px] sm:text-[20px] font-bold leading-[14.2px] sm:leading-[20.6px]">
-            AFC Inc.
-          </button>
-          <div className="flex gap-x-10 items-center">
-            <ul className="flex gap-x-10 hidden sm:flex">
-              <li className="inline text-base leading-6 font-medium	">
-                <a href="default.asp">Track Application</a>
-              </li>
-              <li className="inline text-base leading-6 font-medium	">
-                <a href="news.asp">Manage My Card</a>
-              </li>
-              <li className="inline text-base leading-6 font-medium	">
-                <a href="contact.asp">FAQs</a>
-              </li>
-            </ul>
-            <button className="block sm:hidden" onClick={toggleMobileList}>
-              <img src={hamburegrMenu} />
-            </button>
-            <button className="hidden sm:flex w-[131px] h-[40px] rounded bg-[#F2707C] flex items-center justify-center text-[#FFFFFF] font-bold text-base leading-6">
-              Get Started
-            </button>
-          </div>
-        </header>
-        {isMobileList && (
-          <div id="myLinks" className="options">
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-          </div>
-        )}
-
-      <HeroSection/>
-        
-      </div>
+      <Header/>
       <GetStarted/>
       <div className="section-3-mobile px-[24px] pb-[48px] sm:py-[32px] sm:hidden">
         <p className="font-medium text-[24px] leading-[34px] text-[#000000]">
