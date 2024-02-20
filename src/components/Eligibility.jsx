@@ -6,7 +6,7 @@ const Eligibility = () => {
      return (
           <>
             <div className="section-3-mobile px-[24px] pb-[48px] sm:py-[32px] sm:hidden">
-              <p className="font-medium text-[24px] leading-[34px] text-[#000000]">
+              <p className="font-medium text-[24px] leading-[34px] text-[#000000] mt-2">
                 Create your own credit card in three easy steps
               </p>
               <img className="mt-[32px]" src={stepField} />
@@ -19,7 +19,7 @@ const Eligibility = () => {
               </p>
               <div className="mt-[16px] flex gap-x-[6px] items-center">
                 <a
-                  href="#"
+                  href="#!"
                   className="underline font-medium text-base leading-[24px] text-[#000000]"
                 >
                   Get Started

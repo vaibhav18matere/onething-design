@@ -1,11 +1,11 @@
-import Footer from "./components/Footer";
-import Accordion from "./components/Accordion";
-import GetStarted from "./components/GetStarted";
-import GetStartedMobile from "./components/GetStartedMobile";
 import Header from "./components/Header";
+import GetStarted from "./components/GetStarted";
 import Eligibility from "./components/Eligibility";
 import Rewards from "./components/Rewards";
 import CreditCards from "./components/CreditCards";
+import GetStartedMobile from "./components/GetStartedMobile";
+import Accordion from "./components/Accordion";
+import Footer from "./components/Footer";
 
 function App() {
   return (

@@ -15,13 +15,13 @@ const Header = () => {
                          <div className="flex gap-x-10 items-center">
                          <ul className="flex gap-x-10 hidden sm:flex">
                          <li className="inline text-base leading-6 font-medium	">
-                              <a href="default.asp">Track Application</a>
+                              <a href="#!">Track Application</a>
                          </li>
                          <li className="inline text-base leading-6 font-medium	">
-                              <a href="news.asp">Manage My Card</a>
+                              <a href="#!">Manage My Card</a>
                          </li>
                          <li className="inline text-base leading-6 font-medium	">
-                              <a href="contact.asp">FAQs</a>
+                              <a href="#!">FAQs</a>
                          </li>
                          </ul>
                          <button className="block sm:hidden" onClick={toggleMobileList}>
@@ -34,9 +34,9 @@ const Header = () => {
                     </header>
                     {isMobileList && (
                          <div id="myLinks" className="options">
-                         <a href="#news">News</a>
-                         <a href="#contact">Contact</a>
-                         <a href="#about">About</a>
+                         <a href="#!">News</a>
+                         <a href="#!">Contact</a>
+                         <a href="#!">About</a>
                          </div>
                     )}
                     <HeroSection/>

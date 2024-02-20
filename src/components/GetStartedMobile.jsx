@@ -17,7 +17,7 @@ const GetStartedMobile = () => {
                          do with a unique personal touch
                     </p>
                     <div className="flex gap-x-[6px] text-[#FFFFFF] text-base leading-[24px] font-medium">
-                         <a className="underline" href="#">
+                         <a className="underline" href="#!">
                          Get Started
                          </a>
                          <img src={rightArrow} />

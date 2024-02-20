@@ -43,7 +43,7 @@ const GetStarted = () => {
                     </p>
 
                     <div className="flex gap-x-[16px] text-[#FFFFFF] text-[20px] leading-[30px] font-medium mt-[16px]">
-                    <a className="underline" href="#">
+                    <a className="underline" href="#!">
                     Get Started
                     </a>
                     <img src={rightArrow} />

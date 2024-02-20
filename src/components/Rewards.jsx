@@ -50,7 +50,7 @@ const Rewards = () => {
                          </p>
                          <div className="flex gap-x-[6px] items-center">
                               <a
-                                   href="#"
+                                   href="#!"
                                    className="underline font-medium text-base leading-[24px] text-[#000000]"
                               >
                                    Get Started
